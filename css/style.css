@@ -1,0 +1,141 @@
+html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-size: 16px;
+  font-family: "Lato";
+  font-weight: 400;
+
+  color: #666;
+  /* background: url("../img/background.jpg") no-repeat;
+  background-size: cover; */
+}
+.pimg1,
+.pimg2,
+.pimg3,
+.pimg4 {
+  position: relative;
+  /* opacity: 0.7; */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*   
+    fixed = parallax
+    scroll = normal 
+  */
+
+  background-attachment: fixed;
+}
+.pimg1 {
+  background-image: url("../img/background.jpg");
+  /* background-size: cover; */
+  min-height: 100%;
+  opacity: 0.9;
+  padding: 5px;
+}
+.pimg2 {
+  background-image: url("../img/city.jpg");
+  background-size: cover;
+  min-height: 400px;
+  opacity: 0.8;
+}
+.pimg3 {
+  background-image: url("../img/passion.jpg");
+  background-size: cover;
+  min-height: 400px;
+  opacity: 0.8;
+}
+.pimg4 {
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+  min-height: 100%;
+  opacity: 0.8;
+}
+.section {
+  text-align: center;
+  padding: 50px 80px;
+}
+.section-light {
+  background-color: #f4f4f4;
+  color: #666;
+}
+.section-dark {
+  background-color: #282e34;
+  color: #ddd;
+}
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+.ptext .border {
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+}
+.pimg1 .box {
+  width: 450px;
+  background: rgba(0, 0, 0, 0);
+  padding: 40px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+  font-family: "Century Gothic", sans-serif;
+}
+.ptext .border.trans {
+  background-color: transparent;
+}
+.box-img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.box h1 {
+  font-size: 30px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+.box h5 {
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+.box li {
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+}
+.box li a {
+  color: white;
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250;
+}
+.box li a:hover {
+  color: #b9b9b9;
+}
+
+@media (max-width: 568px) {
+  .pimg1,
+  .pimg2,
+  .pimg3,
+  .pimg4 {
+    background-attachment: scroll;
+  }
+}

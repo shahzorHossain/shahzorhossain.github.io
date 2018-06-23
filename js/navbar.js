@@ -1,32 +1,32 @@
 $(document).ready(function() {
-  $("div.box").click(function() {
+  $("a.about-btn").click(function() {
     $("html, body").animate(
       {
-        scrollTop: $("div.pimg2").offset().top
+        scrollTop: $("section.section-light").offset().top
       },
       1000
     );
   }),
-    $("div.pimg2").click(function() {
+    $("a.experience-btn").click(function() {
+      $("html, body").animate(
+        {
+          scrollTop: $("div.pimg2").offset().top
+        },
+        1000
+      );
+    }),
+    $("a.passion-btn").click(function() {
       $("html, body").animate(
         {
           scrollTop: $("div.pimg3").offset().top
         },
         1000
       );
-    }),
-    $("div.pimg3").click(function() {
-      $("html, body").animate(
-        {
-          scrollTop: $("div.pimg4").offset().top
-        },
-        1000
-      );
     });
-  $("div.pimg4").click(function() {
+  $("a.contact-btn").click(function() {
     $("html, body").animate(
       {
-        scrollTop: $("div.pimg1").offset().top
+        scrollTop: $("div.pimg4").offset().top
       },
       1000
     );

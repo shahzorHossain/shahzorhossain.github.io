@@ -15,22 +15,30 @@ $(document).ready(function() {
         1000
       );
     }),
-    $("a.passion-btn").click(function() {
+    $("a.projects-btn").click(function() {
       $("html, body").animate(
         {
           scrollTop: $("div.pimg3").offset().top
         },
         1000
       );
+    }),
+    $("a.passion-btn").click(function() {
+      $("html, body").animate(
+        {
+          scrollTop: $("div.pimg4").offset().top
+        },
+        1000
+      );
+    }),
+    $("a.contact-btn").click(function() {
+      $("html, body").animate(
+        {
+          scrollTop: $("div.pimg5").offset().top
+        },
+        1000
+      );
     });
-  $("a.contact-btn").click(function() {
-    $("html, body").animate(
-      {
-        scrollTop: $("div.pimg4").offset().top
-      },
-      1000
-    );
-  });
 });
 
 function w3_open() {

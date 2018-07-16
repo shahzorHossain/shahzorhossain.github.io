@@ -89,6 +89,9 @@ body {
   color: #ddd;
   /* min-height: 250px; */
 }
+.section-dark a:hover {
+  color: #b9b9b9;
+}
 
 .section h2 {
   font-weight: 400;
@@ -222,4 +225,19 @@ ul {
 
   /* height: 50px;
   width: 50px; */
+}
+
+footer {
+  margin: 0;
+  padding: 0;
+}
+.footer-contact {
+  background-color: #282e34;
+  color: #ddd;
+}
+
+ul li {
+  display: inline-block;
+  margin: 4px;
+  list-style: none;
 }

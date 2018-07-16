@@ -168,6 +168,21 @@ ul {
   color: #b9b9b9;
 }
 
+.pimg5 .outter-contact-us {
+  position: absolute;
+  width: 100%;
+  bottom: 10px;
+  display: block;
+}
+/* .pimg5 .outter-contact-us .contact-us {
+  display: inline-block;
+} */
+.pimg5 .outter-contact-us .contact-us img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media (max-width: 568px) {
   .pimg1,
   .pimg2,

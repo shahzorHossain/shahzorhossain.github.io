@@ -186,15 +186,16 @@ ul {
   margin-right: auto;
 }
 
-/* @media (max-width: 568px) {
+@media (max-width: 568px) {
   .pimg1,
   .pimg2,
   .pimg3,
   .pimg4,
   .pimg5 {
     background-attachment: fixed;
+    height: 300px;
   }
-} */
+}
 
 .loading {
   width: 100%;

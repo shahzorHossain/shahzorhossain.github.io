@@ -30,14 +30,6 @@ $(document).ready(function() {
         },
         1000
       );
-    }),
-    $("a.contact-btn").click(function() {
-      $("html, body").animate(
-        {
-          scrollTop: $("div.pimg5").offset().top
-        },
-        1000
-      );
     });
 });
 

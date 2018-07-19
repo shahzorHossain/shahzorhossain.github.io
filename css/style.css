@@ -193,7 +193,12 @@ ul {
   .pimg4,
   .pimg5 {
     background-attachment: fixed;
-    height: 300px;
+  }
+
+  .pimg1,
+  .pimg4,
+  .pimg5 {
+    height: 50%;
   }
 }
 

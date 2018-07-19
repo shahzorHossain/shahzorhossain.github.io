@@ -245,6 +245,7 @@ ul {
     height: 75%;
   }
 }
+*/
 
 @media all and (min-width: 481px) and (max-width: 568px) {
   .pimg1,
@@ -289,7 +290,7 @@ ul {
   .pimg5 {
     height: 75%;
   }
-} */
+}
 
 .loading {
   width: 100%;

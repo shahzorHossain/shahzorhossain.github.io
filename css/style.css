@@ -185,7 +185,7 @@ ul {
   margin-left: auto;
   margin-right: auto;
 }
-
+/* 
 @media all and (min-width: 960px) and (max-width: 1024px) {
   .pimg1,
   .pimg2,
@@ -202,7 +202,6 @@ ul {
 }
 
 @media all and (min-width: 801px) and (max-width: 959px) {
-  /* put your css styles in here */
   .pimg1,
   .pimg2,
   .pimg3,
@@ -218,7 +217,6 @@ ul {
 }
 
 @media all and (min-width: 769px) and (max-width: 800px) {
-  /* put your css styles in here */
   .pimg1,
   .pimg2,
   .pimg3,
@@ -234,7 +232,6 @@ ul {
 }
 
 @media all and (min-width: 569px) and (max-width: 768px) {
-  /* put your css styles in here */
   .pimg1,
   .pimg2,
   .pimg3,
@@ -250,7 +247,6 @@ ul {
 }
 
 @media all and (min-width: 481px) and (max-width: 568px) {
-  /* put your css styles in here */
   .pimg1,
   .pimg2,
   .pimg3,
@@ -266,7 +262,6 @@ ul {
 }
 
 @media all and (min-width: 321px) and (max-width: 480px) {
-  /* put your css styles in here */
   .pimg1,
   .pimg2,
   .pimg3,
@@ -282,7 +277,6 @@ ul {
 }
 
 @media all and (min-width: 0px) and (max-width: 320px) {
-  /* put your css styles in here */
   .pimg1,
   .pimg2,
   .pimg3,
@@ -295,7 +289,7 @@ ul {
   .pimg5 {
     height: 75%;
   }
-}
+} */
 
 .loading {
   width: 100%;

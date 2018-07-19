@@ -186,7 +186,7 @@ ul {
   margin-right: auto;
 }
 
-@media (max-width: 568px) {
+/* @media (max-width: 568px) {
   .pimg1,
   .pimg2,
   .pimg3,
@@ -194,7 +194,7 @@ ul {
   .pimg5 {
     background-attachment: fixed;
   }
-}
+} */
 
 .loading {
   width: 100%;

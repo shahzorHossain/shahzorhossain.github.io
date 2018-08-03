@@ -187,10 +187,12 @@ ul {
   margin-left: auto;
   margin-right: auto;
 }
-
+.section-dark .row {
+  display: flex;
+}
 .section-dark .row .column {
-  float: left;
-  width: 50%;
+  /* float: left; */
+  flex: 50%;
   padding: 5px;
   /* display: block;
   margin-left: auto;

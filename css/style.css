@@ -189,13 +189,13 @@ ul {
 }
 
 .section-dark .row .column {
-  float: left;
+  /* float: left;
   width: 33.3%;
-  padding: 5px;
-  /* display: block;
+  padding: 5px; */
+  display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%; */
+  width: 50%;
 }
 /* Clear floats after image containers */
 .section-dark .row::after {

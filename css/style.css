@@ -46,7 +46,7 @@ body {
 
 .pimg1 {
   background-image: url("../img/background.jpg");
-  /* background-size: cover; */
+
   min-height: 100%;
   opacity: 0.9;
   padding: 65px;
@@ -87,7 +87,6 @@ body {
 .section-dark {
   background-color: #282e34;
   color: #ddd;
-  /* min-height: 250px; */
 }
 .section-dark a:hover {
   color: #b9b9b9;
@@ -182,9 +181,7 @@ ul {
   bottom: 10px;
   display: block;
 }
-/* .pimg5 .outter-contact-us .contact-us {
-  display: inline-block;
-} */
+
 .pimg5 .outter-contact-us .contact-us img {
   display: block;
   margin-left: auto;
@@ -192,9 +189,13 @@ ul {
 }
 
 .section-dark .row .column {
-  float: left;
-  width: 33.3%;
-  padding: 5px;
+  /* float: left;
+  width: 100%;
+  padding: 5px; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 /* Clear floats after image containers */
 .section-dark .row::after {
@@ -202,67 +203,6 @@ ul {
   clear: both;
   display: table;
 }
-/* 
-@media all and (min-width: 960px) and (max-width: 1024px) {
-  .pimg1,
-  .pimg2,
-  .pimg3,
-  .pimg4,
-  .pimg5 {
-    background-attachment: fixed;
-  }
-  .pimg1,
-  .pim4,
-  .pimg5 {
-    height: 75%;
-  }
-}
-
-@media all and (min-width: 801px) and (max-width: 959px) {
-  .pimg1,
-  .pimg2,
-  .pimg3,
-  .pimg4,
-  .pimg5 {
-    background-attachment: fixed;
-  }
-  .pimg1,
-  .pim4,
-  .pimg5 {
-    height: 75%;
-  }
-}
-
-@media all and (min-width: 769px) and (max-width: 800px) {
-  .pimg1,
-  .pimg2,
-  .pimg3,
-  .pimg4,
-  .pimg5 {
-    background-attachment: fixed;
-  }
-  .pimg1,
-  .pim4,
-  .pimg5 {
-    height: 75%;
-  }
-}
-
-@media all and (min-width: 569px) and (max-width: 768px) {
-  .pimg1,
-  .pimg2,
-  .pimg3,
-  .pimg4,
-  .pimg5 {
-    background-attachment: fixed;
-  }
-  .pimg1,
-  .pim4,
-  .pimg5 {
-    height: 75%;
-  }
-}
-*/
 
 @media all and (min-width: 481px) and (max-width: 568px) {
   .pimg1,
@@ -327,17 +267,10 @@ ul {
   transform: translate(-50%, -50%);
 }
 .loading-image {
-  /* position: fixed;
-  display: block;
-  float: right; */
-
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
-  /* height: 50px;
-  width: 50px; */
 }
 
 footer {

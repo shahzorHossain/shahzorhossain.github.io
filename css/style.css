@@ -6,7 +6,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 html {
@@ -20,7 +20,7 @@ body {
   padding: 0;
   height: 100%;
   font-size: 16px;
-  font-family: "Raleway";
+  font-family: 'Raleway';
   font-weight: 400;
 
   color: #666;
@@ -45,32 +45,32 @@ body {
 }
 
 .pimg1 {
-  background-image: url("../img/background.jpg");
+  background-image: url('../img/background.jpg');
 
   min-height: 100%;
   opacity: 0.9;
   padding: 65px;
 }
 .pimg2 {
-  background-image: url("../img/city.jpg");
+  background-image: url('../img/city.jpg');
   background-size: cover;
   min-height: 400px;
   opacity: 0.8;
 }
 .pimg3 {
-  background-image: url("../img/bright-bulb.jpg");
+  background-image: url('../img/bright-bulb.jpg');
   background-size: cover;
   min-height: 400px;
   opacity: 0.8;
 }
 .pimg4 {
-  background-image: url("../img/passion.jpg");
+  background-image: url('../img/passion.jpg');
   background-size: cover;
   min-height: 100%;
   opacity: 0.8;
 }
 .pimg5 {
-  background-image: url("../img/background.jpg");
+  background-image: url('../img/background.jpg');
   background-size: cover;
   min-height: 100%;
   opacity: 0.8;
@@ -94,12 +94,12 @@ body {
 
 .section h2 {
   font-weight: 400;
-  font-family: "Raleway", Georgia;
+  font-family: 'Raleway', Georgia;
   text-decoration: none;
 }
 .section h3 {
   font-weight: 400;
-  font-family: "Raleway", Georgia;
+  font-family: 'Raleway', Georgia;
   text-decoration: none;
 }
 .ptext {
@@ -148,13 +148,13 @@ body {
   font-size: 30px;
   letter-spacing: 1px;
   font-weight: 100;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 .box h5 {
   font-size: 20px;
   letter-spacing: 1px;
   font-weight: 100;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 ul {
   margin: 0;
@@ -202,7 +202,7 @@ ul {
 }
 
 .section-dark .row::after {
-  content: "";
+  content: '';
   clear: both;
   display: table;
 }
